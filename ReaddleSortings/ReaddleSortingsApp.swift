@@ -11,7 +11,13 @@ import SwiftUI
 struct ReaddleSortingsApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            AlgorithmsScreen()
         }
+    }
+}
+
+extension ReaddleSortingsApp {
+    static func resignFirstResponder() {
+        UIApplication.shared.sendAction(#selector(UIResponder.resignFirstResponder), to: nil, from: nil, for: nil)
     }
 }

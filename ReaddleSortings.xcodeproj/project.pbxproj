@@ -8,17 +8,29 @@
 
 /* Begin PBXBuildFile section */
 		21BE2FB82C6CE383003F79D8 /* ReaddleSortingsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21BE2FB72C6CE383003F79D8 /* ReaddleSortingsApp.swift */; };
-		21BE2FBA2C6CE383003F79D8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21BE2FB92C6CE383003F79D8 /* ContentView.swift */; };
 		21BE2FBC2C6CE383003F79D8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21BE2FBB2C6CE383003F79D8 /* Assets.xcassets */; };
 		21BE2FBF2C6CE383003F79D8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21BE2FBE2C6CE383003F79D8 /* Preview Assets.xcassets */; };
+		21BE2FC72C6CE405003F79D8 /* BubbleSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21BE2FC62C6CE405003F79D8 /* BubbleSort.swift */; };
+		21BE2FC92C6CE5D0003F79D8 /* InsertionSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21BE2FC82C6CE5D0003F79D8 /* InsertionSort.swift */; };
+		21BE2FCC2C6CE6B1003F79D8 /* AlgorithmsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21BE2FCB2C6CE6B1003F79D8 /* AlgorithmsScreen.swift */; };
+		21BE2FCE2C6CE6B8003F79D8 /* AlgorithmsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21BE2FCD2C6CE6B8003F79D8 /* AlgorithmsViewModel.swift */; };
+		21BE2FD12C6CE7F6003F79D8 /* AlgorithmOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21BE2FD02C6CE7F6003F79D8 /* AlgorithmOutput.swift */; };
+		21BE2FD32C6CED3C003F79D8 /* AlgorithmPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21BE2FD22C6CED3C003F79D8 /* AlgorithmPlayer.swift */; };
+		21BE2FD62C6CF7F7003F79D8 /* CancelBag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21BE2FD52C6CF7F7003F79D8 /* CancelBag.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		21BE2FB42C6CE383003F79D8 /* ReaddleSortings.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReaddleSortings.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		21BE2FB72C6CE383003F79D8 /* ReaddleSortingsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReaddleSortingsApp.swift; sourceTree = "<group>"; };
-		21BE2FB92C6CE383003F79D8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		21BE2FBB2C6CE383003F79D8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		21BE2FBE2C6CE383003F79D8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		21BE2FC62C6CE405003F79D8 /* BubbleSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BubbleSort.swift; sourceTree = "<group>"; };
+		21BE2FC82C6CE5D0003F79D8 /* InsertionSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsertionSort.swift; sourceTree = "<group>"; };
+		21BE2FCB2C6CE6B1003F79D8 /* AlgorithmsScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlgorithmsScreen.swift; sourceTree = "<group>"; };
+		21BE2FCD2C6CE6B8003F79D8 /* AlgorithmsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlgorithmsViewModel.swift; sourceTree = "<group>"; };
+		21BE2FD02C6CE7F6003F79D8 /* AlgorithmOutput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlgorithmOutput.swift; sourceTree = "<group>"; };
+		21BE2FD22C6CED3C003F79D8 /* AlgorithmPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlgorithmPlayer.swift; sourceTree = "<group>"; };
+		21BE2FD52C6CF7F7003F79D8 /* CancelBag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CancelBag.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +63,11 @@
 		21BE2FB62C6CE383003F79D8 /* ReaddleSortings */ = {
 			isa = PBXGroup;
 			children = (
+				21BE2FD42C6CF7F0003F79D8 /* Helpers */,
+				21BE2FCF2C6CE7ED003F79D8 /* Models */,
+				21BE2FCA2C6CE6A7003F79D8 /* Features */,
+				21BE2FC52C6CE3E6003F79D8 /* Algorithms */,
 				21BE2FB72C6CE383003F79D8 /* ReaddleSortingsApp.swift */,
-				21BE2FB92C6CE383003F79D8 /* ContentView.swift */,
 				21BE2FBB2C6CE383003F79D8 /* Assets.xcassets */,
 				21BE2FBD2C6CE383003F79D8 /* Preview Content */,
 			);
@@ -65,6 +80,41 @@
 				21BE2FBE2C6CE383003F79D8 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		21BE2FC52C6CE3E6003F79D8 /* Algorithms */ = {
+			isa = PBXGroup;
+			children = (
+				21BE2FC62C6CE405003F79D8 /* BubbleSort.swift */,
+				21BE2FC82C6CE5D0003F79D8 /* InsertionSort.swift */,
+			);
+			path = Algorithms;
+			sourceTree = "<group>";
+		};
+		21BE2FCA2C6CE6A7003F79D8 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				21BE2FCB2C6CE6B1003F79D8 /* AlgorithmsScreen.swift */,
+				21BE2FCD2C6CE6B8003F79D8 /* AlgorithmsViewModel.swift */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		21BE2FCF2C6CE7ED003F79D8 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				21BE2FD02C6CE7F6003F79D8 /* AlgorithmOutput.swift */,
+				21BE2FD22C6CED3C003F79D8 /* AlgorithmPlayer.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		21BE2FD42C6CF7F0003F79D8 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				21BE2FD52C6CF7F7003F79D8 /* CancelBag.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +187,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				21BE2FBA2C6CE383003F79D8 /* ContentView.swift in Sources */,
+				21BE2FC92C6CE5D0003F79D8 /* InsertionSort.swift in Sources */,
 				21BE2FB82C6CE383003F79D8 /* ReaddleSortingsApp.swift in Sources */,
+				21BE2FD62C6CF7F7003F79D8 /* CancelBag.swift in Sources */,
+				21BE2FD32C6CED3C003F79D8 /* AlgorithmPlayer.swift in Sources */,
+				21BE2FCC2C6CE6B1003F79D8 /* AlgorithmsScreen.swift in Sources */,
+				21BE2FCE2C6CE6B8003F79D8 /* AlgorithmsViewModel.swift in Sources */,
+				21BE2FD12C6CE7F6003F79D8 /* AlgorithmOutput.swift in Sources */,
+				21BE2FC72C6CE405003F79D8 /* BubbleSort.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
